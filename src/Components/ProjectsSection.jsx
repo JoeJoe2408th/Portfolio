@@ -3,12 +3,12 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
+    title: "Food Order Website",
+    description: "This is a food ordering website that uses ReactJS on the frontend and NodeJS on the backend.",
     image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["ReactJS", "TailwindCSS", "NodeJS", "MongoDB"],
+    demoUrl: "https://food-order-website-bb5o.onrender.com/",
+    githubUrl: "https://github.com/JoeJoe2408th/FULLSTACK-FOOD-ORDER-WEBSITE",
   },
   {
     id: 2,
@@ -16,19 +16,19 @@ const projects = [
     description:
       "Interactive analytics dashboard with data visualization and filtering capabilities.",
     image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
+    tags: ["ReactJs", "TailwindCSS", "React Bits"],
     demoUrl: "#",
     githubUrl: "#",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "Hunonic sales website",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
+      "Hunonic company introduction and sales website uses javascript and bootstrap, integrated with zalo chatbot and shoppee link.",
     image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["Javascript", "CSS" , "Bootstrap"],
+    demoUrl: "https://hunonic-bootstrap-js.netlify.app/",
+    githubUrl: "https://github.com/JoeJoe2408th/Hunonic-Bootstrap-Freelancer",
   },
 ];
 
@@ -74,7 +74,7 @@ export const ProjectsSection = () => {
                   {project.description}
                 </p>
                 <div className="flex justify-between items-center">
-                  <div className="flex space-x-3">
+                  <div className="flex align- space-x-3">
                     <a
                       href={project.demoUrl}
                       target="_blank"

@@ -99,6 +99,18 @@
     @apply bg-background text-foreground transition-colors duration-300;
     font-feature-settings: "rlig" 1, "calt" 1;
   }
+
+  /* Ensure backdrop-blur works properly */
+  .backdrop-blur-md {
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    -moz-backdrop-filter: blur(12px);
+  }
+
+  .navbar-blur {
+    isolation: isolate;
+    transform: translateZ(0);
+  }
 }
 
 @utility container {
@@ -159,4 +171,19 @@
   margin: 0 auto;
   padding: 0;
   text-align: center;
+}
+
+
+/* GradientText  */
+@keyframes gradient {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+.animate-gradient {
+  animation: gradient 8s linear infinite;
 }

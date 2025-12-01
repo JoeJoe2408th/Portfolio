@@ -7,10 +7,13 @@ import { SkillsSection } from "../components/SkillsSection.jsx";
 import { ProjectsSection } from "../components/ProjectsSection.jsx";
 import { ContactSection } from "../components/ContactSection.jsx";
 import { Footer } from "../components/Footer.jsx";
+import SplashCursor from "../components/ui/splashCursor.jsx";
 
 export const Home = () => {
   return (
     <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
+      {/* splashCursor */}
+      <SplashCursor />
       {/* Theme Toggle */}
       <ThemeToggle />
       {/* Background Effects */}
@@ -29,6 +32,7 @@ export const Home = () => {
 
       {/* Footer */}
       <Footer />
+      
     </div>
   );
 };
