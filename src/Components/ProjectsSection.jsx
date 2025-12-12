@@ -12,23 +12,23 @@ const projects = [
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "Portfolio Website",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
+      "Introduce myself, my completed projects, and provide my contact information..",
     image: "/projects/project2.png",
-    tags: ["ReactJs", "TailwindCSS", "React Bits"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["ReactJs", "TailwindCSS"],
+    demoUrl: "https://duy-blogs-portfolio.netlify.app/",
+    githubUrl: "https://github.com/JoeJoe2408th/Portfolio",
   },
   {
     id: 3,
     title: "Hunonic sales website",
     description:
-      "Hunonic company introduction and sales website uses javascript and bootstrap, integrated with zalo chatbot and shoppee link.",
+      "Hunonic company introduction and sales website uses NextJS, TypeScript and TailwindCSS, integrated with zalo chatbot and shoppee link.",
     image: "/projects/project3.png",
-    tags: ["Javascript", "CSS" , "Bootstrap"],
-    demoUrl: "https://hunonic-bootstrap-js.netlify.app/",
-    githubUrl: "https://github.com/JoeJoe2408th/Hunonic-Bootstrap-Freelancer",
+    tags: ["NextJS", "TypeScript" , "TailwindCSS"],
+    demoUrl: "https://hunonic-page.vercel.app/",
+    githubUrl: "https://github.com/JoeJoe2408th/Hunonic-Freelancer-Pages",
   },
 ];
 
