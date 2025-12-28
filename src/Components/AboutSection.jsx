@@ -30,7 +30,7 @@ export const AboutSection = () => {
               </a>
 
               <a
-                href="https://www.topcv.vn/xem-cv/AltdVQVdDQEAV1lZUABUDgJSCAZYAloEWl9UAQ085f"
+                href="https://www.topcv.vn/xem-cv/AAcEVw5VBAIEV1JQUVUBBA9YAQVUUgAAAVdXDA53bb"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
                 Download CV
